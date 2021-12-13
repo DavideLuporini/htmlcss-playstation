@@ -1,0 +1,19 @@
+
+/* todos remove */
+
+header{
+
+    height: 100px;
+    border: black 2px dashed;
+}
+
+div.col-8,div.col-4{
+
+height: 100px;
+border: yellow 3px solid;
+}
+
+.jumbo{
+    height: 500px;
+    border: 2px  dashed blue;
+}
