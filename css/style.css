@@ -15,6 +15,7 @@ border: yellow 3px solid;
 
 .jumbo{
     border: 2px  dashed blue;
+    height: 500px;
 }
 .footer-jumbo{
     height: 100px;
@@ -23,6 +24,17 @@ border: yellow 3px solid;
 
 }
 
-img{
-max-width: 100%;
+.img-container{
+    height: 500px;
+}
+
+.img-text{
+    border: green 2px dashed;
+    height: 200px;
+    width: 300px;
+}
+.img-title{
+    border: green 2px dashed;
+    height: 100px;
+    width: 100px;
 }
