@@ -3,34 +3,32 @@
 
 header{
 
-    height: 100px;
+
     border: black 2px dashed;
 }
 
 div.col-8,div.col-4{
 
-height: 100px;
+
 border: yellow 3px solid;
 }
 
 .jumbo{
     border: 2px  dashed blue;
-    height: 500px;
+
 }
 .footer-jumbo{
-    height: 100px;
-    width: 100%;
+
     border: 2px  dashed green;
 
 }
 
 .img-container{
-    height: 500px;
+
 }
 
 .img-text{
     border: green 2px dashed;
-    height: 200px;
     width: 300px;
 }
 .img-title{
