@@ -48,3 +48,16 @@ border: yellow 3px solid;
     text-align: center;
     border: 2px red dashed;
 }
+
+.title-explore,.col-12{
+
+}
+
+.explore{
+    height: 200px;
+    border:fuchsia dashed 2px ;
+}
+.explore-product{
+    height: 200px;
+    border:fuchsia dashed 2px ;
+}
