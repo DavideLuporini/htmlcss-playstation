@@ -36,3 +36,15 @@ border: yellow 3px solid;
     height: 100px;
     width: 100px;
 }
+.info{
+    border: green 2px dashed;
+    width: auto;
+}
+
+.spotlight{
+    border: pink 2px dashed;
+}
+.card-box{
+    text-align: center;
+    border: 2px red dashed;
+}
