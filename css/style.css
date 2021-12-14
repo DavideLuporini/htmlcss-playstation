@@ -2,6 +2,7 @@
 /* colors */
 :root {
     --tc-gray: #b7b7b7;
+    --bg-blue: #161c3b;
 }
 
 .text-gray{
@@ -101,9 +102,23 @@ li::after{
 
 /* games cards */
 
-.rounded-game{
+.rounded-1-25{
     border-radius: 1.25rem;
 }
 
 
 /* playstation plus section */
+
+.ps-plus .img-container{
+    max-width: 400px;
+}
+
+/* ps-now */
+
+.ps-now .img-container{
+    max-width: 400px;
+}
+
+.ps-now{
+    background-color: var(--bg-blue);
+}
