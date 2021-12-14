@@ -11,6 +11,9 @@
 .bgc-black{
     background-color: #1f1f1f;
 }
+.bgc-gray{
+    background-color: #bebcbb;
+}
 
 /* text */
 .text-blue{
@@ -91,6 +94,7 @@ li::after{
     background-position: center;
     background-size: cover;
 }
+
 #itt-banner{
     height: 300px;
 }
@@ -100,3 +104,6 @@ li::after{
 .rounded-game{
     border-radius: 1.25rem;
 }
+
+
+/* playstation plus section */
