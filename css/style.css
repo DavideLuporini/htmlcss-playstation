@@ -131,3 +131,11 @@ header{
 .social-container{
     max-width: 800px;
 }
+
+/* footer */
+#sie-logo{
+    max-width: 200px;
+}
+#ps-svg-white{
+    fill: white;
+}
