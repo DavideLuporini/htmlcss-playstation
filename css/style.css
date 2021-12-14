@@ -77,8 +77,20 @@ footer{
 /* end todos */
 
 /* colors */
+:root {
+    --tc-gray: #b7b7b7;
+}
+
+.text-gray{
+    color: var(--tc-gray);
+}
+/* bgc */
 
 
+/* text */
+.text-blue{
+    color: blue;
+}
 /* header */
 .jumbo{
     padding-top: 120px;
