@@ -1,81 +1,4 @@
 
-/* todos remove */
-
-/* header{
-
-
-    border: black 2px dashed;
-}
-
-div.col-8,div.col-4{
-
-
-border: yellow 3px solid;
-} */
-
-/* .jumbo{
-    border: 2px  dashed blue;
-
-}
-.footer-jumbo{
-
-    border: 2px  dashed green;
-
-}
-
-.img-text{
-    border: green 2px dashed;
-    width: 300px;
-} */
-/* .img-title{
-    border: green 2px dashed;
-    height: 100px;
-    width: 100px;
-} */
-/* .info{
-    border: green 2px dashed;
-    width: auto;
-}
-
-.spotlight{
-    border: pink 2px dashed;
-}
-.card-box{
-    text-align: center;
-    border: 2px red dashed;
-}
-
-.explore{
-    height: 200px;
-    border:fuchsia dashed 2px ;
-}
-.explore-product{
-    height: 200px;
-    border:fuchsia dashed 2px ;
-}
-.ps-plus{
-    height: 300px;
-    border:orange dashed 2px ;
-}
-.explore-product{
-    height: 200px;
-    border:fuchsia dashed 2px ;
-}
-.social{
-    height: 500px;
-    border:orange dashed 2px ;
-}
-.explore-product{
-    height: 200px;
-    border:fuchsia dashed 2px ;
-}
-
-footer{
-    border:rgb(233, 5, 55) dashed 2px ;
-} */
-
-/* end todos */
-
 /* colors */
 :root {
     --tc-gray: #b7b7b7;
@@ -85,7 +8,9 @@ footer{
     color: var(--tc-gray);
 }
 /* bgc */
-
+.bgc-black{
+    background-color: black;
+}
 
 /* text */
 .text-blue{
