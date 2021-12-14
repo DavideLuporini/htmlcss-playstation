@@ -122,3 +122,8 @@ li::after{
 .ps-now{
     background-color: var(--bg-blue);
 }
+
+/* socials */
+.social-container{
+    max-width: 800px;
+}
