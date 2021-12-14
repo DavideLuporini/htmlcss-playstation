@@ -32,7 +32,7 @@ border: yellow 3px solid;
     height: 100px;
     width: 100px;
 } */
-.info{
+/* .info{
     border: green 2px dashed;
     width: auto;
 }
@@ -72,7 +72,7 @@ border: yellow 3px solid;
 
 footer{
     border:rgb(233, 5, 55) dashed 2px ;
-}
+} */
 
 /* end todos */
 
@@ -114,11 +114,15 @@ header{
     height: 20px;
 }
 
-.nav-link::after{
+li::after{
+    content: url('../img/chevron-down-solid.svg');
     display: block;
-    width: 22px;
+    width: 15px;
     height: 10px;
     margin: 10px 5px 0 10px
+}
+.nav-item{
+    display: inline-flex;
 }
 
 /* jumbo */
@@ -147,4 +151,10 @@ header{
 .card{
     border: 0;
     margin-bottom: 10px;
+    position: static;
+}
+
+/* info product */
+.img-product{
+    max-width: 100%;
 }
