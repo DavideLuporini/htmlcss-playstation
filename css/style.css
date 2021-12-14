@@ -94,3 +94,9 @@ li::after{
 #itt-banner{
     height: 300px;
 }
+
+/* games cards */
+
+.rounded-game{
+    border-radius: 1.25rem;
+}
