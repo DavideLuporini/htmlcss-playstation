@@ -15,6 +15,10 @@
 .bgc-gray{
     background-color: #bebcbb;
 }
+.bgc-blue{
+    background-color: #00439c
+    ;
+}
 
 /* text */
 .text-blue{
@@ -43,7 +47,7 @@ header{
     height: 20px;
 }
 
-li::after{
+.header-bot li::after{
     content: url('../img/chevron-down-solid.svg');
     display: block;
     width: 15px;
