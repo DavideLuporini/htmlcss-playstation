@@ -1,7 +1,7 @@
 
 /* todos remove */
 
-header{
+/* header{
 
 
     border: black 2px dashed;
@@ -11,7 +11,7 @@ div.col-8,div.col-4{
 
 
 border: yellow 3px solid;
-}
+} */
 
 .jumbo{
     border: 2px  dashed blue;
@@ -23,19 +23,15 @@ border: yellow 3px solid;
 
 }
 
-.img-container{
-
-}
-
 .img-text{
     border: green 2px dashed;
     width: 300px;
 }
-.img-title{
+/* .img-title{
     border: green 2px dashed;
     height: 100px;
     width: 100px;
-}
+} */
 .info{
     border: green 2px dashed;
     width: auto;
@@ -47,10 +43,6 @@ border: yellow 3px solid;
 .card-box{
     text-align: center;
     border: 2px red dashed;
-}
-
-.title-explore,.col-12{
-
 }
 
 .explore{
@@ -80,4 +72,51 @@ border: yellow 3px solid;
 
 footer{
     border:rgb(233, 5, 55) dashed 2px ;
+}
+
+/* end todos */
+
+/* colors */
+
+
+/* header */
+.jumbo{
+    padding-top: 120px;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.header-top{
+    background-color: black;
+    height: 40px;  
+}
+#logo-text-sony{
+    height: 10px;
+}
+.header-bot{
+    background-color: #fff;
+    height: 60px;
+}
+#logo-brand-playstation{
+    height: 20px;
+}
+
+.nav-link::after{
+    display: block;
+    width: 22px;
+    height: 10px;
+    margin: 10px 5px 0 10px
+}
+
+/* jumbo */
+
+.jumbo{
+    background-image: url();
+    height: 500px;
+}
+
+
+#returnal-banner{
+    height: 50px;
 }
