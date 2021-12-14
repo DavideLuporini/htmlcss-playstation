@@ -13,7 +13,7 @@ div.col-8,div.col-4{
 border: yellow 3px solid;
 } */
 
-.jumbo{
+/* .jumbo{
     border: 2px  dashed blue;
 
 }
@@ -26,7 +26,7 @@ border: yellow 3px solid;
 .img-text{
     border: green 2px dashed;
     width: 300px;
-}
+} */
 /* .img-title{
     border: green 2px dashed;
     height: 100px;
@@ -111,9 +111,12 @@ header{
 
 /* jumbo */
 
-.jumbo{
-    background-image: url();
+.jumbo > .container-fluid{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
     height: 500px;
+    padding-bottom: 50px;
 }
 
 
