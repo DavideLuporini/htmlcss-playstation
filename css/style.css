@@ -114,6 +114,7 @@ body {
 
 .img-product {
     height: 100px;
+    opacity: 0.7
 }
 
 
@@ -186,4 +187,8 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
     opacity: 1;
     color: black;
+}
+
+.img-product:hover {
+    opacity: 1;
 }
