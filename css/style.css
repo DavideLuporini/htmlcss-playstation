@@ -1,8 +1,13 @@
-
+body{
+    padding-top: 100px;
+}
 /* colors */
 :root {
     --tc-gray: #b7b7b7;
-    --bg-blue: #161c3b;
+    --bg-blue: #00439c;
+    --bg-darkblue: #161c3b;
+    --bg-black:#1f1f1f;
+    --bg-gray: #bebcbb;
 }
 
 .text-gray{
@@ -10,14 +15,13 @@
 }
 /* bgc */
 .bgc-black{
-    background-color: #1f1f1f;
+    background-color: var(--bg-black);
 }
 .bgc-gray{
-    background-color: #bebcbb;
+    background-color: var(--bg-gray);
 }
 .bgc-blue{
-    background-color: #00439c
-    ;
+    background-color: var(--bg-blue);
 }
 
 /* text */
@@ -26,25 +30,24 @@
 }
 /* header */
 .jumbo{
-    padding-top: 120px;
+    padding-top: 300px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: top center;
+    background-size: cover;
 }
 header{
     position: fixed;
     width: 100%;
 }
-.header-top{
-    background-color: black;
-    height: 40px;  
-}
 #logo-text-sony{
     height: 10px;
+    width: auto;
 }
 .header-bot{
     background-color: #fff;
-    height: 60px;
 }
 #logo-brand-playstation{
-    height: 20px;
+
 }
 
 .header-bot li::after{
@@ -59,15 +62,6 @@ header{
 }
 
 /* jumbo */
-
-.jumbo > .container-fluid,.spotlight > .container-fluid{
-    background-image: url("../img/jumbo-bg.png");
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-    padding-bottom: 50px;
-    margin-bottom: 15px;
-}
 
 
 #returnal-banner{
@@ -94,7 +88,7 @@ header{
 }
 
 /* section spotlight */
-.spotlight > .container-fluid{
+.spotlight{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
@@ -124,7 +118,7 @@ header{
 }
 
 .ps-now{
-    background-color: var(--bg-blue);
+    background-color: var(--bg-darkblue);
 }
 
 /* socials */
