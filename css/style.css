@@ -1,137 +1,165 @@
-body{
+body {
     padding-top: 100px;
 }
+
+
 /* colors */
+
 :root {
     --tc-gray: #b7b7b7;
     --bg-blue: #00439c;
     --bg-darkblue: #161c3b;
-    --bg-black:#1f1f1f;
+    --bg-black: #1f1f1f;
     --bg-gray: #bebcbb;
+    --bg-white: white;
 }
 
-.text-gray{
+
+/* text color */
+
+.text-gray {
     color: var(--tc-gray);
 }
+
+
 /* bgc */
-.bgc-black{
+
+.bgc-black {
     background-color: var(--bg-black);
 }
-.bgc-gray{
+
+.bgc-gray {
     background-color: var(--bg-gray);
 }
-.bgc-blue{
+
+.bgc-blue {
     background-color: var(--bg-blue);
 }
 
+.bgc-blue {
+    background-color: var(--bg-blue);
+}
+
+.bgc-blue {
+    background-color: var(--bg-white);
+}
+
+
 /* text */
-.text-blue{
+
+.text-blue {
     color: blue;
 }
 
-.fs-46px{
+.fs-46px {
     font-size: 46px;
 }
 
+
 /* header */
-.jumbo{
+
+.jumbo {
     padding-top: 300px;
     background-image: url("../img/jumbo-bg.png");
     background-position: top center;
     background-size: cover;
 }
-header{
-    position: fixed;
-    width: 100%;
-}
-#logo-text-sony{
+
+#logo-text-sony {
     height: 10px;
     width: auto;
 }
-.header-bot{
-    background-color: #fff;
+
+.header-bot {
+    background-color: var(--bg-white);
 }
 
-.header-bot li::after{
+.header-bot li::after {
     content: url('../img/chevron-down-solid.svg');
-    display: block;
     width: 15px;
     height: 10px;
     margin: 10px 5px 0 10px
 }
-.nav-item{
-    display: inline-flex;
-}
+
 
 /* jumbo */
 
-
-#returnal-banner{
-    height: 50px;
+#returnal-banner {
+    height: 80px;
 }
 
-.jumbo-description{
+.jumbo-description {
     padding-top: 250px;
 }
 
+
 /* carousel */
 
-.card-img-top{
+.card-img-top {
     border-radius: 20px;
 }
 
-.card{
+.card {
     border: 0;
     margin-bottom: 10px;
     position: static;
 }
 
+
 /* info product */
-.img-product{
-    max-width: 100%;
-    height: 100PX;
+
+.img-product {
+    height: 100px;
 }
 
+
 /* section spotlight */
-.spotlight{
+
+.spotlight {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
 }
 
-#itt-banner{
+#itt-banner {
     height: 300px;
 }
 
+
 /* games cards */
 
-.rounded-1-25{
+.rounded-1-25 {
     border-radius: 1.25rem;
 }
 
+
 /* playstation plus section */
 
-.ps-plus .img-container{
+.ps-plus .img-container {
     max-width: 400px;
 }
+
 
 /* ps-now */
 
-.ps-now .img-container{
+.ps-now .img-container {
     max-width: 400px;
 }
 
-.ps-now{
+.ps-now {
     background-color: var(--bg-darkblue);
 }
 
+
 /* socials */
-.social-container{
+
+.social-container {
     max-width: 600px;
 }
 
+
 /* footer */
 
-#sie-logo{
+#sie-logo {
     max-width: 200px;
 }
