@@ -78,7 +78,6 @@ header{
 
 .card-img-top{
     border-radius: 20px;
-    margin-bottom: 20px;
 }
 
 .card{
@@ -110,9 +109,6 @@ header{
     border-radius: 1.25rem;
 }
 
-
-
-
 /* playstation plus section */
 
 .ps-plus .img-container{
@@ -131,7 +127,7 @@ header{
 
 /* socials */
 .social-container{
-    max-width: 800px;
+    max-width: 600px;
 }
 
 /* footer */
