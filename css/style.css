@@ -51,9 +51,6 @@ header{
 .header-bot{
     background-color: #fff;
 }
-#logo-brand-playstation{
-
-}
 
 .header-bot li::after{
     content: url('../img/chevron-down-solid.svg');
@@ -138,6 +135,7 @@ header{
 }
 
 /* footer */
+
 #sie-logo{
     max-width: 200px;
 }
