@@ -51,6 +51,10 @@ body {
     color: blue;
 }
 
+.text-black {
+    color: black;
+}
+
 .fs-46px {
     font-size: 46px;
 }
@@ -177,4 +181,9 @@ body {
 
 .btn-light:hover {
     box-shadow: 0px 0px 0px 3px black inset;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    opacity: 1;
+    color: black;
 }
