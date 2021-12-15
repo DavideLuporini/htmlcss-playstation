@@ -40,7 +40,7 @@ body {
     background-color: var(--bg-blue);
 }
 
-.bgc-blue {
+.bgc-white {
     background-color: var(--bg-white);
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 
-/* header */
+/***** HEADER ****/
 
 .jumbo {
     padding-top: 300px;
@@ -82,7 +82,7 @@ body {
 }
 
 
-/* jumbo */
+/**** JUMBO ****/
 
 #returnal-banner {
     height: 80px;
@@ -93,7 +93,7 @@ body {
 }
 
 
-/* carousel */
+/**** CAROUSEL ****/
 
 .card-img-top {
     border-radius: 20px;
@@ -106,14 +106,14 @@ body {
 }
 
 
-/* info product */
+/**** INFO PRODUCTS ****/
 
 .img-product {
     height: 100px;
 }
 
 
-/* section spotlight */
+/**** SPOTLIGHT ****/
 
 .spotlight {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -126,32 +126,28 @@ body {
 }
 
 
-/* games cards */
+/**** GAMES ****/
 
 .rounded-1-25 {
     border-radius: 1.25rem;
 }
 
 
-/* playstation plus section */
+/**** PS PLUS SECTION ****/
 
 .ps-plus .img-container {
     max-width: 400px;
 }
 
 
-/* ps-now */
-
-.ps-now .img-container {
-    max-width: 400px;
-}
+/**** PS NOW ****/
 
 .ps-now {
     background-color: var(--bg-darkblue);
 }
 
 
-/* socials */
+/**** SOCIAL ****/
 
 .social-container {
     max-width: 600px;
