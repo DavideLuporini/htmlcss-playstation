@@ -159,3 +159,22 @@ body {
 #sie-logo {
     max-width: 200px;
 }
+
+
+/* ***HOVER*** */
+
+.btn-dark:hover {
+    box-shadow: 0px 0px 0px 3px white inset;
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 0px 0px 3px white inset;
+}
+
+.btn-danger:hover {
+    box-shadow: 0px 0px 0px 3px black inset;
+}
+
+.btn-light:hover {
+    box-shadow: 0px 0px 0px 3px black inset;
+}
