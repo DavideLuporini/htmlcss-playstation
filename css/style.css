@@ -28,6 +28,11 @@ body{
 .text-blue{
     color: blue;
 }
+
+.fs-46px{
+    font-size: 46px;
+}
+
 /* header */
 .jumbo{
     padding-top: 300px;
@@ -68,11 +73,15 @@ header{
     height: 50px;
 }
 
+.jumbo-description{
+    padding-top: 250px;
+}
 
 /* carousel */
 
 .card-img-top{
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .card{
@@ -105,6 +114,8 @@ header{
 }
 
 
+
+
 /* playstation plus section */
 
 .ps-plus .img-container{
@@ -129,7 +140,4 @@ header{
 /* footer */
 #sie-logo{
     max-width: 200px;
-}
-#ps-svg-white{
-    fill: white;
 }
